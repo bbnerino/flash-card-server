@@ -1,5 +1,5 @@
 import { IsNotEmpty } from 'class-validator';
-import { BoardStatus } from '../boards.model';
+import { BoardStatus } from '../board-status-enum';
 
 export class CreateBoardDto {
   @IsNotEmpty()
@@ -7,6 +7,4 @@ export class CreateBoardDto {
 
   @IsNotEmpty()
   description: string;
-
-  status?: BoardStatus;
 }

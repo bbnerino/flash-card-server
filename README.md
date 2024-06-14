@@ -16,3 +16,8 @@
 validation 체크
 
 `npm install class-validator class-transformer --save`
+
+
+### TYPEORM
+
+`npm install pg typeorm @nestjs/typeorm --save`
